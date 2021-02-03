@@ -15,11 +15,47 @@
      <link rel="stylesheet" href="css/font-awesome.min.css">
 
      <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/templatemo-style.css">
+     <link rel="stylesheet" href="contact-form.css">
 
 </head>
-<body>
+  <center>
+  <div class="fcf-body">
 
+      <div id="fcf-form" style="position: relative">
+      <h3 class="fcf-h3">Contact us</h3>
+
+      <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+          <div class="fcf-form-group">
+              <label for="Name" class="fcf-label">Your name</label>
+              <div class="fcf-input-group">
+                  <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+              </div>
+          </div>
+
+          <div class="fcf-form-group">
+              <label for="Email" class="fcf-label">Your email address</label>
+              <div class="fcf-input-group">
+                  <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+              </div>
+          </div>
+
+          <div class="fcf-form-group">
+              <label for="Message" class="fcf-label">Your message</label>
+              <div class="fcf-input-group">
+                  <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+              </div>
+          </div>
+
+          <div class="fcf-form-group">
+              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+          </div>
+
+          <div class="fcf-credit" id="fcf-credit">
+          </div>
+
+      </form>
+      </div>
      <!-- PRE LOADER -->
      <section class="preloader">
           <div class="spinner">
@@ -52,12 +88,9 @@
               </div>
 
             </div>
-         </div>
-    </section>
-
 
     <div class="menu-bg"></div>
-    <div class="menu-burger">☰</div>
+     <div class="menu-burger">☰</div>
 
     <div class="menu-items">
        <div class="container">
@@ -71,17 +104,7 @@
             </ul>
            </div>
 
-           <div class="col-md-12 col-sm-12">
-             <ul class="social-icon">
-              <li class="line"></li>
-               <li><a href="https://fb.com" class="fa fa-facebook"></a></li>
-               <li><a href="#" class="fa fa-twitter"></a></li>
-               <li><a href="https://plus.google.com" class="fa fa-google"></a></li>
-               <li><a href="#" class="fa fa-instagram"></a></li>
-             </ul>
-           </div>
-         </div>
-       </div>
+
     </div>
 
 
@@ -89,30 +112,7 @@
      <section id="home">
         <div class="overlay"></div>
           <div class="container">
-               <div class="row">
 
-                    <div class="col-md-12 col-sm-12">
-                         <div class="home-info">
-                              <h1>Charity Search</h1>
-                              <!-- You can change the date time in init.js file -->
-                              <div style="padding:5px"><script async src="https://cse.google.com/cse.js?cx=000588726921731451196:aaiug7d0sii"></script><div style="padding:50px">
-                              <div class="gcse-searchbox-only" data-mobileLayout="disabled">></div>
-
-                              <h2><center>This month's searches will help save the <a href="https://coral.org/" target="_blank">Coral</a href></center>
-
-                              </body>
-                              <script data-ad-client="ca-pub-4892392315289499" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-          <div style="padding:100px"><h2><center>All those web searches you make everyday are monetized through advertisements. So why not put that search revenue to good use? Charity Search features a Charity of the Month that will recive 100% of the Ad revenue you as a user create. We are currently working on user experience. 501c3 designation pending</a href></center>
-
-          <div style="padding:100px"><h2><center>This month we are donating all ad revnue to the Coral Reef Alliance. Check out their mission at <a href="https://coral.org/" target="_blank">https://coral.org</a href></center>
-     </section>
      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -123,7 +123,7 @@
      <script src="js/vegas.min.js"></script>
      <script src="js/countdown.js"></script>
      <script src="js/init.js"></script>
-     <script src="js/custom.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
 </html>
