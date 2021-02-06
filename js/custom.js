@@ -18,7 +18,9 @@
     // ABOUT SLIDER
     $('body').vegas({
         slides: [
-            { src: 'images/ocean.png' },
+            { src: 'images/ocean.png' alt },
+$('#overlay img').attr('alt', 'charity search');
+
         ],
         timer: false,
         transition: [ 'zoomOut', ]
