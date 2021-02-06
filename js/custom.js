@@ -19,7 +19,6 @@
     $('body').vegas({
         slides: [
             { src: 'images/ocean.png' alt },
-$('#overlay img').attr('alt', 'charity search');
 
         ],
         timer: false,
