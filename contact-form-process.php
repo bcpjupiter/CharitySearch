@@ -1,7 +1,5 @@
 <?php
 if (isset($_POST['Email'])) {
-
-    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "bcpjupiter@gmail.com";
     $email_subject = "Search-Charity Feedback";
 
@@ -13,8 +11,6 @@ if (isset($_POST['Email'])) {
         echo "Please go back and fix these errors.<br><br>";
         die();
     }
-
-    // validation expected data exists
     if (
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
@@ -66,10 +62,8 @@ if (isset($_POST['Email'])) {
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
-
-    <!-- include your success message below -->
-
     Thank you for contacting us. We will be in touch with you very soon.
 
 <?php
 }
+?>
