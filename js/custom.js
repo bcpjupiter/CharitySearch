@@ -18,7 +18,7 @@
     // ABOUT SLIDER
     $('body').vegas({
         slides: [
-            { src: 'images/ocean.png' alt },
+            { src: 'images/ocean.png' }
 
         ],
         timer: false,
